@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+/* App */
+body {
+  background-color: #f5f4f4 !important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Navbar */
+.nav-logo {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 20px;
+  height: 50px;
+  width: 50px;
 }
 
-.App-link {
-  color: #61dafb;
+.nav-logo h5 {
+  font-size: 28px;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.navbar-collapse {
+  flex-basis: 0 !important;
+  flex-grow: 0 !important;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .navbar-collapse {
+    flex-basis: 100% !important;
+    flex-grow: 1 !important;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
-  }
+}
+
+.navbar .container {
+  margin-left: 10px;
+  margin-right: 10px;
+  max-width: 100%;
+  background-color: #fff;
+}
+
+.nav-link {
+  font-weight: bold;
+  color: #000 !important;
+  margin-right: 40px;
+}
+
+.fa-qrcode {
+  padding-right: 2px;
+}
+
+.bs-light {
+  background-color: #f5f4f4 !important;
 }
