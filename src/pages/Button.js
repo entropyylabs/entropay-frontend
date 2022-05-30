@@ -33,7 +33,7 @@ function ButtonPage() {
             >
               Button Created Successfully!
             </h6>
-            {/* <FormControl>
+            <FormControl>
               <FormLabel htmlFor="title">Title of the Button</FormLabel>
               <Input className="button-input" id="title" type="text" />
 
@@ -65,7 +65,7 @@ function ButtonPage() {
                 <div className="label-toast">Donations</div>
                 <div className="label-toast">Custom Button</div>
               </div>
-            </FormControl> */}
+            </FormControl>
             <h5 style={{ marginBottom: "20px" }}>HTML code</h5>
             <CopyBlock text={text} language="html" theme={dracula} copyBlock />
 
