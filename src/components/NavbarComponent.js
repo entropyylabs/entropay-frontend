@@ -24,7 +24,7 @@ function NavbarComponent() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ml-auto">
             <NavDropdown title="Create" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">
+              <NavDropdown.Item href="/button">
                 <FontAwesomeIcon icon={faSquare} /> Payment Button
               </NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">
